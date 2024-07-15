@@ -1,10 +1,7 @@
 # food-delivery-real-time-data-analysis
 Process food delivery data in real time and create dashboard for stakeholders
-## Architecture
+## Data Architecture
 ![food_delivery](https://github.com/user-attachments/assets/9d5d652c-76ed-481c-b541-ac1892b278f9)
-
-## DataWarehouse Data Modeling(Star Schema)
-![dm](https://github.com/user-attachments/assets/c05681a1-2786-4002-876e-b62dd8a21d61)
 
 ## Teck Stack
 - Kinesis Data Stream
@@ -15,3 +12,16 @@ Process food delivery data in real time and create dashboard for stakeholders
 - S3
 - CICD with CodeBuild
 - Quicksight
+## Data Visualization
+insert insights here
+## DataWarehouse Data Modeling(Star Schema)
+![dm](https://github.com/user-attachments/assets/c05681a1-2786-4002-876e-b62dd8a21d61)
+
+### Kinesis Data Stream
+- Real-time data capture:Ingest and store data streams from hundreds of thousands of data sources
+- Collect and store data streams:Collect gigabytes of data per second and make it available for processing and analyzing in real time.
+- Here it is important to understand why only Kinesis data streams ,why not Kinesis firehose or Kinesis Analytics.Here in this project I only want to ingest and capture data so that EMR can read the data and do the processing.
+## Lessons Learned
+It will be good if we find the aws service that fits to our usecase
+## Next Steps
+If i get some time,I'm planning to expand this project ,where I want to ingest data from mutiple data sources and analysis that data in realtime.
