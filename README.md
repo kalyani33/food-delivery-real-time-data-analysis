@@ -1,7 +1,8 @@
 # food-delivery-real-time-data-analysis
 Process food delivery data in real time and create dashboard for stakeholders
 ## Data Architecture
-![food_delivery](https://github.com/user-attachments/assets/9d5d652c-76ed-481c-b541-ac1892b278f9)
+![new_food_del_arch](https://github.com/user-attachments/assets/2a9a39f2-3dab-4379-b98b-df2132db7e9c)
+
 
 ## Teck Stack
 - Kinesis Data Stream
